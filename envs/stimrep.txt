@@ -1,0 +1,36 @@
+# author: steeve.laquitaine@epfl.ch
+#
+# most recent environment:
+# - Kilsort 4
+# - ability to disable preprocessing
+
+# 1. Setup a spack environment with python 3.9:
+#
+#   module purge
+#   module load spack
+#   . /gpfs/bbp.cscs.ch/ssd/apps/bsd/2024-02-01/spack/share/spack/setup-env.sh
+#   #spack reindex
+#   #spack env create spack_python3_9 envs/spack_python3_9.yaml
+#   spack env activate spack_python3_9 -p
+#   #spack install
+
+# 2. Setup a virtual environment with stimrep:
+# 
+#   mkdir /gpfs/bbp.cscs.ch/project/proj85/scratch/laquitai/stim-rep/envs # create envs folder
+#   python3.9 -m venv /gpfs/bbp.cscs.ch/project/proj85/scratch/laquitai/stim-rep/envs/stimrep # create env
+#   source /gpfs/bbp.cscs.ch/project/proj85/scratch/laquitai/stim-rep/envs/stimrep/bin/activate
+#   /gpfs/bbp.cscs.ch/project/proj85/scratch/laquitai/stim-rep/envs/stimrep/bin/python3.9 -m pip install -r /gpfs/bbp.cscs.ch/project/proj85/home/laquitai/stim-rep/envs/stimrep.txt
+
+pynwb                       # read nwb datasets
+ipykernel                   
+ipywidgets==8.0.6           # version important; or notebook and bluepy fail
+jupyter==1.0.0              # version important: or notebook and and bluepy fail
+pandas==1.5.2               # version important; bluepy fails with 1.5.3
+pyyaml
+scikit-learn
+networkx
+spikeinterface==0.100.5     # contains the newly released stimrep
+matplotlib
+ipython-autotime # time track colab notebook cells
+--pre
+cebra[datasets,demos]       # dimensionality reduction
