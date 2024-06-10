@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="144pt" height="72pt" viewBox="0 0 144 72" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2024-05-12T16:42:51.098130</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.8.4, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 72 
+L 144 72 
+L 144 0 
+L 0 0 
+L 0 72 
+z
+" style="fill: none"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 18 36.748579 
+L 129.6 36.748579 
+L 129.6 35.971421 
+L 18 35.971421 
+L 18 36.748579 
+z
+" style="fill: none"/>
+   </g>
+   <g clip-path="url(#p003ab2b9e0)">
+    <image xlink:href="data:image/png;base64,
+iVBORw0KGgoAAAANSUhEUgAAAdEAAAAECAYAAADRRwWzAAABKklEQVR4nO2VTXbDMAiEZ9DVeoTe/yimi8oSf3LSdMtsMDB8kLy8mF/8VgAAid8oM/gcMycJyKzdMzPnypnmIh/C7Q8c2Hqa91GFx141q6uHmmf7qQfHVRIgao/hLOYMObfME2/HNC/eY++K85Z/7pn86eZ1zzOn5hU3p8/5mvsvD86ekpdq+vbONWt2nnjV9/XK63lFDw9zR57/a4geUs2z9+yfmSYOi7yquQhAYm1GCTNieBLukVinppog8s8e4fWGZ3vHQw8ABrVkA8DAFWY01cY9g53bZ7fL7BlhZ+LiMux9q/dubvaGnaZ+2l3dN8L3tnlq7rlrmDuw8rFq9J75CxFyP8/u9sqMnHVxjFar1Wq1Wn9Uv0RbrVar1fpQ/RJttVqtVutD/QChl4kP7ToPRAAAAABJRU5ErkJggg==" id="image4c8d1e5bf3" transform="scale(1 -1) translate(0 -0.96)" x="18" y="-35.788579" width="111.6" height="0.96"/>
+   </g>
+   <g id="matplotlib.axis_1"/>
+   <g id="matplotlib.axis_2"/>
+   <g id="patch_3">
+    <path d="M 18 36.748579 
+L 18 35.971421 
+" style="fill: none; stroke: #000000; stroke-width: 0.5; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 18 36.748579 
+L 129.6 36.748579 
+" style="fill: none; stroke: #000000; stroke-width: 0.5; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p003ab2b9e0">
+   <rect x="18" y="35.971421" width="111.6" height="0.777159"/>
+  </clipPath>
+ </defs>
+</svg>

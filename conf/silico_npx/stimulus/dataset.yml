@@ -1,0 +1,9 @@
+
+models: 
+  cebra:
+    models:
+      multilayer_trialwise: /gpfs/bbp.cscs.ch/project/proj85/scratch/laquitai/stim-rep/models/cebra/models/multilayer_trialwise.pt
+      multilayer_unitwise: /gpfs/bbp.cscs.ch/project/proj85/scratch/laquitai/stim-rep/models/cebra/models/multilayer_unitwise.pt
+    embed:
+      multilayer_trialwise: /gpfs/bbp.cscs.ch/project/proj85/scratch/laquitai/stim-rep/models/cebra/embeddings/multilayer_trialwise.pkl
+      multilayer_unitwise: /gpfs/bbp.cscs.ch/project/proj85/scratch/laquitai/stim-rep/models/cebra/embeddings/multilayer_unitwise.pkl
